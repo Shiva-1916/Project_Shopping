@@ -12,21 +12,21 @@
         <img src="./New folder/images/logo.png" />
       </div>
       <div class="child_a">
-        <p style="opacity: 0.5">Home</p>
-        <p>Men's</p>
-        <p>Women's</p>
-        <p>Kid's</p>
-        <p>
+        <a href="#home"><p style="opacity: 0.5">Home</p></a>
+        <a href="#men's"><p>Men's</p></a>
+        <a href="#women's"><p>Women's</p></a>
+        <a href="#kid's"><p>Kid's</p></a>
+        <a href="#pages"><p>
           <select name="" style="border: none">
             <option value="">Pages</option>
           </select>
-        </p>
-        <p>
-          <select name="" style="border: none">
-            <option value="">Features</option>
-          </select>
-        </p>
-        <p>Explore</p>
+        </p></a>
+       <a href="#features"> <p>
+        <select name="" style="border: none">
+          <option value="">Features</option>
+        </select>
+      </p></a>
+        <a href="#explore"><p>Explore</p></a>
       </div>
     </div>
 
@@ -34,7 +34,7 @@
       <p style="border: dotted; opacity: 0.2"></p>
     </div>
 
-    <div class="grid_1">
+    <div class="grid_1" id="home">
       <div class="div1 grid_1a">
         <img src="./New folder/images/left-banner-image.jpg" width="100%" />
         <div class="child1text">
@@ -91,14 +91,14 @@
       </p>
     </div>
 
-    <div class="rating_img">
+    <div class="rating_img" id="men's">
       <div class="prev">
         <button><img src="./New folder/images/prev.png" /></button>
       </div>
 
-      <div class="women1">
+      <div>
         <img src="./New folder/images/men-01.jpg" width="330px" />
-        <div class="content">
+        <div>
           <span class="star">Classic Spring</span>
           <img
             src="data:image/jpeg;base64,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"
@@ -109,10 +109,10 @@
         </div>
       </div>
 
-      <div class="women1">
+      <div>
         <img src="./New folder/images//men-02.jpg" width="330px" />
         <div>
-          <span class="star">Air Force 1 X</span>
+          <span>Air Force 1 X</span>
 
           <img
             src="data:image/jpeg;base64,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"
@@ -124,7 +124,7 @@
         </div>
       </div>
 
-      <div class="women1">
+      <div>
         <img src="./New folder/images/men-03.jpg" width="330px" />
         <div>
           <span class="star">Love Nana '20</span>
@@ -157,12 +157,12 @@
       </p>
     </div>
 
-    <div class="rating_img">
+    <div class="rating_img" id="women's">
       <div class="prev">
         <button><img src="./New folder/images/prev.png" /></button>
       </div>
 
-      <div class="women1">
+      <div>
         <img src="./New folder/images/women-01.jpg" width="330px" />
         <div>
           <span class="star">New Green Jacket</span>
@@ -175,7 +175,7 @@
         <p>$ 120.00</p>
       </div>
 
-      <div class="women1">
+      <div>
         <img src="./New folder/images/women-02.jpg" width="330px" />
         <div>
           <span class="star">Classic Dress</span>
@@ -190,7 +190,7 @@
         <p>$45.00</p>
       </div>
 
-      <div class="women1">
+      <div>
         <img src="./New folder/images/women-03.jpg" width="330px" />
         <div>
           <span class="star">Spring Collection</span>
@@ -223,12 +223,12 @@
       </p>
     </div>
 
-    <div class="rating_img">
+    <div class="rating_img" id="kid's">
       <div class="prev">
         <button><img src="./New folder/images/prev.png" /></button>
       </div>
 
-      <div class="women1">
+      <div>
         <img src="./New folder/images/kid-01.jpg" width="330px" />
         <div>
           <span class="star">School Collection</span>
@@ -241,7 +241,7 @@
         <p>$ 80.00</p>
       </div>
 
-      <div class="women1">
+      <div>
         <img src="./New folder/images/kid-02.jpg" width="330px" />
         <div>
           <span class="star">Summer Cap</span>
@@ -256,7 +256,7 @@
         <p>$ 12.00</p>
       </div>
 
-      <div class="women1">
+      <div>
         <img src="./New folder/images/kid-03.jpg" width="330px" />
         <div>
           <span class="star">Classic Kid</span>
@@ -277,7 +277,12 @@
       </div>
     </div>
 
-    <div class="grid_1 heading1">
+    <div>
+      <p style="border: dotted; opacity: 0.2; margin-top: 50px"></p>
+    </div>
+
+
+    <div class="grid_1 heading1" id="explore">
       <div class="grid_1a">
         <h1>Explore Our Products</h1>
         <p>You are allowed to use this HexaShop HTML CSS template. You can feel free
@@ -300,19 +305,19 @@
     </div>
 
     <div class="grid_1b">
-            <div class="text_center">
+            <div class="text_center" style="background-color: lightgray;height: 100%;">
             <h2>Leather Bags</h2>
             <span style="font-style: italic;">Latest collection</span>
             </div>
         </div>
         <div class="grid_1c">
-            <img src="./New folder/images/explore-image-01.jpg" width="100%">
+            <img src="./New folder/images/explore-image-01.jpg" width="100%" height="200px">
         </div>
         <div class="grid_1d">
-            <img src="./New folder/images/explore-image-02.jpg" width="100%">
+            <img src="./New folder/images/explore-image-02.jpg" width="100%" height="200px">
         </div>
         <div class="grid_1e">
-            <div class="text_center">
+            <div class="text_center" style="background-color: lightgray;height: 100%;">
             <h2>Different Types</h2>
             <span style="font-style: italic;">Over 304 products</span>
             </div>
@@ -328,7 +333,7 @@
       <p>Details to details is what makes Hexashop different from the other themes.</p>
   </div>
 
-   <div class="social heading1">
+   <div class="social heading1" id="pages">
     <img src="./New folder/images/instagram-01.jpg" width="150">
     <img src="./New folder/images/instagram-02.jpg" width="150">
     <img src="./New folder/images/instagram-03.jpg" width="150">
@@ -341,7 +346,7 @@
     <p style="border: dotted; opacity: 0.2; margin-top: 50px"></p>
   </div>
 
-  <div class="main_details heading1">
+  <div class="main_details heading1" id="features">
     <div>
         <p style="font-weight: bold;font-size: 1.5rem;">By Subscribing To Our Newsletter You  <br>
           Can Get 30% Off</p>
